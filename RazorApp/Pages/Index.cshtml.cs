@@ -9,6 +9,8 @@ namespace RazorApp.Pages
 {
     public class IndexModel : PageModel
     {
+
+        public string Message => "Hello!";
         public void OnGet()
         {
 
